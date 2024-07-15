@@ -24,3 +24,26 @@ This project serves as a foundation for developing more complex e-commerce appli
    ```sh
    git clone https://github.com/yourusername/bookshop.git
    cd bookshop
+
+2. Create a virtual environment and install dependencies:
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   pip install django
+
+3. Apply migrations:
+   ```sh
+   python manage.py migrate
+
+4. Run the development server:
+   ```sh
+   python manage.py runserver
+
+5. Access the project:
+   Open your web browser and navigate to http://127.0.0.1:8000/ to see your project running.
+
+
+## Technologies Used
+Python
+Django
+SQLite
